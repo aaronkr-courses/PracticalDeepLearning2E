@@ -1,7 +1,7 @@
 import numpy as np
 from sklearn.datasets import make_classification
 
-x,y = make_classification(n_samples=10000, weights=(0.9,0.1))
+x,y = make_classification(n_samples=10000, weights=[0.9,0.1])
 idx = np.argsort(np.random.random(y.shape[0]))
 x = x[idx]
 y = y[idx]
