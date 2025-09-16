@@ -18,6 +18,7 @@ __All datasets are available for download:__
 Expand the tarball in the directory holding the chapter subdirectories.
 
 __Updates:__
+
     - If using Python 3.12, replace '==2.10.0' with '==2.18.0' when installing TensorFlow
 
 
